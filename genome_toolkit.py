@@ -1,9 +1,10 @@
-# Olyan függvények, amelyeket gyakran használok más, komplexebb feladatok megoldásához
+# Olyan függvények és egyéb változók (jelenleg csak 1), amelyeket gyakran használok más, komplexebb feladatok megoldásához
 #
 # Eddig tartalmazza:
 # - FASTA fájl beolvasás
 # - transzkripció
 # - transzláció
+# - kódtábla
 
 codon_map = {"UUU":"F", "UUC":"F", "UUA":"L", "UUG":"L",
              "UCU":"S", "UCC":"S", "UCA":"S", "UCG":"S",
@@ -45,7 +46,7 @@ def transcribe(dna):
 
 def translate(rna):
     protein_seq = ""
-    start = rna.find("AUG")  # stores the position of the first AUG triplet
+    start = rna.find("AUG")  # stores the index of the first AUG triplet
     while start + 2 < len(rna):
         kodon = rna[start:start+3]
         if kodon in {"UAG", "UAA", "UGA"}:
