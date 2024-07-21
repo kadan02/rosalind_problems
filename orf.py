@@ -13,8 +13,8 @@ MTPRLGLESLLE
 
 """
 
-from GenomeToolkit import transcribe
-from GenomeToolkit import codon_map
+from genome_toolkit import transcribe
+from genome_toolkit import codon_map
 
 
 def translate_orf(rna):  # translates all possible open reading frames of a single DNA strand
