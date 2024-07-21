@@ -15,7 +15,7 @@ TTATCTGACAAAGAAAGCCGTCAACGGCTGGATAATTTCGCGATCGTGCTGGTTACTGGCGGTACGAGTGTTCCTTTGGG
 1.21428571429
 """
 
-from GenomeToolkit import read_fasta
+from genome_toolkit import read_fasta
 
 
 def transition_transversion_ratio(fasta_file):
