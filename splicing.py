@@ -15,9 +15,9 @@ ATCGGTCGAGCGTGT
 MVYIADKQHVASREAYGHMFKVCA
 """
 
-from GenomeToolkit import read_fasta
-from GenomeToolkit import transcribe
-from GenomeToolkit import translate
+from genome_toolkit import read_fasta
+from genome_toolkit import transcribe
+from genome_toolkit import translate
 
 
 def splice_dna(fasta_file):
