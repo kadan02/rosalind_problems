@@ -5,7 +5,7 @@ Given: At most 10 DNA strings in FASTA format (of length at most 1 kbp each).
 Return: The ID of the string having the highest GC-content, followed by the GC-content of that string.
 """
 
-from GenomeToolkit import read_fasta
+from genome_toolkit import read_fasta
 
 
 def gc_content(dataset_file):
