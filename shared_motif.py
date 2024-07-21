@@ -17,7 +17,7 @@ ATACA
 ------------------------------------------------- Sample Output -------------------------------------------------
 AC
 """
-from GenomeToolkit import read_fasta
+from genome_toolkit import read_fasta
 
 
 def find_longest_common_motif(fasta_file):
