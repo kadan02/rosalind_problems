@@ -1,3 +1,3 @@
-A https://rosalind.info oldalon megtalálható bioinformatikával foglalkozó problémákra a megoldásaim Python-ban.
+A https://rosalind.info oldalon megtalálható bioinformatikával foglalkozó problémákra a megoldásaim Python-ban. Mivel még tanulom a programozást, igyekszem minél kevesebb külső könyvtárat használni, a genome_toolkit.py fájlban gyűjtöm azokat az általam írt függvényeket, amelyeket a többi probléma megoldásához is használok (pl. fájlbeolvasás). 
 
-My solutions to the bioinformatic problems on https://rosalind.info in Python.
+My solutions to the bioinformatic problems on https://rosalind.info in Python. Because I am still learning programming, I try to use as little external libraries as possible. I am collecting the functions which I regularly use to solve other problems in the file genome_toolkit.py, which are also written by me.
